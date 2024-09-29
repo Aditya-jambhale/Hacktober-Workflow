@@ -3,7 +3,7 @@ import { Route,Routes } from "react-router-dom";
 import Home from './Home/home';
 import Intro from './intro/intro';
 import Initials from './Initials/initial'
-import Environment from './Environment/Env';
+import Environment from './Environment/Envcomponent';
 import ForkClone from './Fork/fc';
 import Branch from './Branch/branch';
 import Pull from './Prandpl/pr';

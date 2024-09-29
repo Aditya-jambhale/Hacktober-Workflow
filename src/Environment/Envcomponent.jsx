@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Env from '../components/Env';
 
-function Env() {
+function Envcomponent() {
   return (
    <>
    <Navbar/>
@@ -10,4 +10,4 @@ function Env() {
   )
 }
 
-export default Env
+export default Envcomponent
