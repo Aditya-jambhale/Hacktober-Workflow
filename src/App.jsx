@@ -1,11 +1,11 @@
 import React from 'react';
 import { Route,Routes } from "react-router-dom";
-import Home from './Home/Home';
+import Home from './Home/Homecomp';
 import Intro from './Info/Infocomponent';
 import Initials from './Initials/Initialcomponent'
 import Environment from './Environment/Envcomponent';
 import ForkClone from './Fork/Fccomponent';
-import Branch from './Branch/Branch';
+import Branch from './Branch/Branchcomp';
 import Pull from './Prandpl/Prcomponent';
 import Hack from './Hacktoberfest/Hack';
 function App() {

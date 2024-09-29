@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Branch from '../components/Branch'
 
-function branch() {
+function Branchcomp() {
   return (
    <>
    <Navbar/>
@@ -11,4 +11,4 @@ function branch() {
   )
 }
 
-export default branch
+export default Branchcomp
