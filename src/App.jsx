@@ -7,7 +7,7 @@ import Environment from './Environment/Envcomponent';
 import ForkClone from './Fork/Fccomponent';
 import Branch from './Branch/Branchcomp';
 import Pull from './Prandpl/Prcomponent';
-import Hack from './Hacktoberfest/Hack';
+import Hack from './Hacktoberfest/Hackcomp';
 function App() {
   return (
    
