@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import Fork from '../components/Forkclone.jsx'
+import Fork from '../components/Forkclone'
 function Fccomponent() {
   return (
     <>

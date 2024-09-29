@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react'
 import Navbar from '../components/Navbar'
-import Pull from '../components/Pr.jsx'
+import Pull from '../components/Pr'
 function Prcomponent() {
   return (
     <>
