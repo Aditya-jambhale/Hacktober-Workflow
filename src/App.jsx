@@ -16,7 +16,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/InfoBoxcom" element={<Intro />} />
           <Route path="/Env" element={<Environment />} />
-          <Route path="/Commands" element={<Initials />} />
+          <Route path="/Command" element={<Initials />} />
           <Route path="/Forkclone" element={<ForkClone />} />
           <Route path="/Branch" element={<Branch />} />
           <Route path="/Pr" element={<Pull/>} />
