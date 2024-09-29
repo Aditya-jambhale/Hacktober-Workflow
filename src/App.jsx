@@ -15,7 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/intro" element={<Intro />} />
-          <Route path="/Env" element={<Environment />} />
+          <Route path="/env" element={<Environment />} />
           <Route path="/initial" element={<Initials />} />
           <Route path="/forkclone" element={<ForkClone />} />
           <Route path="/branch" element={<Branch />} />

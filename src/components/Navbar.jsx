@@ -21,7 +21,7 @@ function Navbar() {
             <ul class="menu menu-horizontal px-1">
               {/* Added .menu-item class to each menu item */}
               <li><a href='/intro' class="menu-item">Introduction</a></li>
-              <li><a href='/Env' class="menu-item">Environment Setup</a></li>
+              <li><a href='/env' class="menu-item">Environment Setup</a></li>
               <li><a href='/initial' class="menu-item">Initial Commands</a></li>
               <li><a href='/forkclone' class="menu-item">Forking and Cloning</a></li>
               <li><a href='/Branch' class="menu-item">Branching</a></li>
@@ -39,7 +39,7 @@ function Navbar() {
               </label>
               <ul tabIndex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                 <li><a href='/intro' class="text-black menu-item">Introduction</a></li>
-                <li><a href='/Env' class="text-black menu-item">Environment Setup</a></li>
+                <li><a href='/env' class="text-black menu-item">Environment Setup</a></li>
                 <li><a href='/initial' class="text-black menu-item">Initial Commands</a></li>
                 <li><a href='/forkclone' class="text-black menu-item">Forking and Cloning</a></li>
                 <li><a href='/Branch' class="text-black menu-item">Branching</a></li>
