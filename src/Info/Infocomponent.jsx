@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import InfoBox from '../components/InfoBoxcom'
+import InfoBox from '../components/InfoBoxcom.jsx'
 function InfoBoxcomponent() {
   return (
    <>

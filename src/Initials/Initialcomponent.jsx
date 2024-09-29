@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import Initial from '../components/Command'
+import Initial from '../components/Command.jsx'
 function Initialcomponent() {
   return (
    <>
