@@ -3,7 +3,7 @@ import { Route,Routes } from "react-router-dom";
 import Home from './Home/home';
 import Intro from './intro/intro';
 import Initials from './Initials/initial'
-import Environment from './Environment/env';
+import Environment from './Environment/Env';
 import ForkClone from './Fork/fc';
 import Branch from './Branch/branch';
 import Pull from './Prandpl/pr';
@@ -15,7 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/intro" element={<Intro />} />
-          <Route path="/env" element={<Environment />} />
+          <Route path="/Env" element={<Environment />} />
           <Route path="/initial" element={<Initials />} />
           <Route path="/forkclone" element={<ForkClone />} />
           <Route path="/branch" element={<Branch />} />

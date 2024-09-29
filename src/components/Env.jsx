@@ -29,7 +29,7 @@ const CommandBox = ({ command }) => {
   );
 };
 
-const env = () => {
+const Env = () => {
   return (
     <div className="p-6">
       <h1 className="text-2xl font-bold mb-4">Git Environment Setup for Beginners</h1>
@@ -83,4 +83,4 @@ const env = () => {
   );
 };
 
-export default env;
+export default Env;
