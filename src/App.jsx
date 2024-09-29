@@ -1,26 +1,26 @@
 import React from 'react';
 import { Route,Routes } from "react-router-dom";
-import Home from './Home/home';
-import Intro from './intro/intro';
-import Initials from './Initials/initial'
+import Home from './Home/Home';
+import Intro from './Info/Infocomponent';
+import Initials from './Initials/Initialcomponent'
 import Environment from './Environment/Envcomponent';
-import ForkClone from './Fork/fc';
-import Branch from './Branch/branch';
-import Pull from './Prandpl/pr';
-import Hack from './Hacktoberfest/hack';
+import ForkClone from './Fork/Fccomponent';
+import Branch from './Branch/Branch';
+import Pull from './Prandpl/Prcomponent';
+import Hack from './Hacktoberfest/Hack';
 function App() {
   return (
    
       <div>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/intro" element={<Intro />} />
+          <Route path="/InfoBoxcom" element={<Intro />} />
           <Route path="/Env" element={<Environment />} />
-          <Route path="/initial" element={<Initials />} />
-          <Route path="/forkclone" element={<ForkClone />} />
-          <Route path="/branch" element={<Branch />} />
-          <Route path="/pr" element={<Pull/>} />
-          <Route path="/hacktoberfest" element={<Hack/>} />
+          <Route path="/Initial" element={<Initials />} />
+          <Route path="/Forkclone" element={<ForkClone />} />
+          <Route path="/Branch" element={<Branch />} />
+          <Route path="/Pr" element={<Pull/>} />
+          <Route path="/Hacktoberfest" element={<Hack/>} />
         </Routes>
       </div>
     

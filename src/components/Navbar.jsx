@@ -20,13 +20,13 @@ function Navbar() {
           <div class="hidden lg:flex">
             <ul class="menu menu-horizontal px-1">
               {/* Added .menu-item class to each menu item */}
-              <li><a href='/intro' class="menu-item">Introduction</a></li>
-              <li><a href='/env' class="menu-item">Environment Setup</a></li>
-              <li><a href='/initial' class="menu-item">Initial Commands</a></li>
-              <li><a href='/forkclone' class="menu-item">Forking and Cloning</a></li>
+              <li><a href='/InfoBoxcom' class="menu-item">Introduction</a></li>
+              <li><a href='/Env' class="menu-item">Environment Setup</a></li>
+              <li><a href='/Initial' class="menu-item">Initial Commands</a></li>
+              <li><a href='/Forkclone' class="menu-item">Forking and Cloning</a></li>
               <li><a href='/Branch' class="menu-item">Branching</a></li>
-              <li><a href='/pr' class="menu-item">Push and Pull Requests</a></li>
-              <li><a href='/hacktoberfest' class="menu-item">Hacktoberfest</a></li>
+              <li><a href='/Pr' class="menu-item">Push and Pull Requests</a></li>
+              <li><a href='/Hacktoberfest' class="menu-item">Hacktoberfest</a></li>
             </ul>
           </div>
 
@@ -38,13 +38,13 @@ function Navbar() {
                 </svg>
               </label>
               <ul tabIndex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                <li><a href='/intro' class="text-black menu-item">Introduction</a></li>
+                <li><a href='/InfoBoxcom' class="text-black menu-item">Introduction</a></li>
                 <li><a href='/Env' class="text-black menu-item">Environment Setup</a></li>
-                <li><a href='/initial' class="text-black menu-item">Initial Commands</a></li>
-                <li><a href='/forkclone' class="text-black menu-item">Forking and Cloning</a></li>
+                <li><a href='/Initial' class="text-black menu-item">Initial Commands</a></li>
+                <li><a href='/Forkclone' class="text-black menu-item">Forking and Cloning</a></li>
                 <li><a href='/Branch' class="text-black menu-item">Branching</a></li>
-                <li><a href='/pr' class="text-black menu-item">Push and Pull Requests</a></li>
-                <li><a href='/hacktoberfest' class="text-black menu-item">Hacktoberfest</a></li>
+                <li><a href='/Pr' class="text-black menu-item">Push and Pull Requests</a></li>
+                <li><a href='/Hacktoberfest' class="text-black menu-item">Hacktoberfest</a></li>
               </ul>
             </div>
           </div>

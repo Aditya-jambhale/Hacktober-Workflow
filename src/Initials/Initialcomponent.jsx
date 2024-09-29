@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import Initial from '../components/initial';
-function initial() {
+import Initial from '../components/Initial';
+function Initialcomponent() {
   return (
    <>
    <Navbar />
@@ -10,4 +10,4 @@ function initial() {
   )
 }
 
-export default initial
+export default Initialcomponent

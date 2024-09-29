@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import Banner from '../components/Banner'
-function home() {
+function Home() {
   return (
     <>
     <Navbar/>
@@ -10,4 +10,4 @@ function home() {
   )
 }
 
-export default home
+export default Home

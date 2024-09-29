@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import Fork from '../components/forkclone'
-function fc() {
+import Fork from '../components/Forkclone'
+function Fccomponent() {
   return (
     <>
     <Navbar/>
@@ -9,4 +9,4 @@ function fc() {
   )
 }
 
-export default fc
+export default Fccomponent

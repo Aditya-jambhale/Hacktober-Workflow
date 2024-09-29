@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import Hacktober from '../components/hacktoberfest'
-function hack() {
+import Hacktober from '../components/Hacktoberfest'
+function Hack() {
   return (
     <>
     <Navbar/>
@@ -9,4 +9,4 @@ function hack() {
   )
 }
 
-export default hack
+export default Hack

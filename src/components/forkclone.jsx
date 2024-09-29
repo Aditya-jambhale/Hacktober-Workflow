@@ -29,7 +29,7 @@ const CommandBox = ({ command }) => {
   );
 };
 
-const App = () => {
+const Forkclone = () => {
   return (
     <div className="p-6">
       <h1 className="text-2xl font-bold mb-4">Forking and Cloning in Git</h1>
@@ -65,4 +65,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Forkclone;

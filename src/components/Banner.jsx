@@ -31,7 +31,7 @@ function Banner() {
       </p>
 
       <div className='mt-6'>
-        <Link to="/intro">
+        <Link to="/InfoBoxcom">
           <button className="btn btn-primary">Introduction to Git and GitHub</button>
         </Link>
       </div>

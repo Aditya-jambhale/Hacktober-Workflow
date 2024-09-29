@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import InfoBox from '../components/InfoBox'
-function intro() {
+import InfoBox from '../components/InfoBoxcom'
+function InfoBoxcomponent() {
   return (
    <>
    <Navbar />
@@ -10,4 +10,4 @@ function intro() {
   )
 }
 
-export default intro
+export default InfoBoxcomponent

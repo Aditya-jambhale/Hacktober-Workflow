@@ -45,7 +45,7 @@ const TabContent = () => {
   );
 };
 
-const App = () => {
+const Hacktoberfest = () => {
   return (
     <div>
       <h1 className="text-2xl font-bold p-6">Secured Tab</h1>
@@ -54,4 +54,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Hacktoberfest;

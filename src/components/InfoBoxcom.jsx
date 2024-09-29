@@ -9,7 +9,7 @@ const InfoBox = ({ title, content }) => {
   );
 };
 
-const App = () => {
+const InfoBoxcom = () => {
   return (
     <div className="p-6">
       <h1 className="text-2xl font-bold mb-4">Introduction to Open Source</h1>
@@ -74,4 +74,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default InfoBoxcom;
