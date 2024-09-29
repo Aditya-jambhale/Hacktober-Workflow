@@ -3,15 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Aditya-jambhale.github.io/Workshop",
-
-  "scripts": {
+ 
+    "scripts": {
     "dev": "vite",
-    "build": "npm ci && vite build",
+    "build": "npm run build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",           
-    "deploy": "gh-pages -d dist"          
+    "preview": "vite preview"
+          
   },
   "dependencies": {
     "daisyui": "^4.12.10",
