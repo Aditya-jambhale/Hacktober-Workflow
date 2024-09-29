@@ -29,7 +29,7 @@ const CodeBox = ({ code }) => {
   );
 };
 
-const Initial= () => {
+const Command= () => {
   return (
     <div className="p-6">
       <h1 className="text-2xl font-bold mb-4">GitHub Commands</h1>
@@ -93,4 +93,4 @@ const Initial= () => {
   );
 };
 
-export default Initial;
+export default Command;
