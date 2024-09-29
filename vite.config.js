@@ -1,9 +1,8 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react-swc';
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/Github-Resources/',
-
+  // Uncomment the next line if deploying to a sub-path
+  // base: '/<repo-name>/', // Not needed for Vercel
 });
