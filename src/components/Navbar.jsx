@@ -43,7 +43,7 @@ function Navbar() {
                 <li><a href='/Command' class="text-black menu-item">Initial Commands</a></li>
                 <li><a href='/Forkclone' class="text-black menu-item">Forking and Cloning</a></li>
                 <li><a href='/Branch' class="text-black menu-item">Branching</a></li>
-                <li><a href='/Pr' class="text-black menu-item">Push and Pull Requests</a></li>
+                <li><a href='/Pull' class="text-black menu-item">Push and Pull Requests</a></li>
                 <li><a href='/Hacktoberfest' class="text-black menu-item">Hacktoberfest</a></li>
               </ul>
             </div>

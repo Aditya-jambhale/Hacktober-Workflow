@@ -6,7 +6,7 @@ import Initials from './Initials/Initialcomponent'
 import Environment from './Environment/Envcomponent';
 import ForkClone from './Fork/Fccomponent';
 import Branch from './Branch/Branchcomp';
-import Pull from './Prandpl/Prcomponent';
+import Pull from './Pullrequests/Prcomponent';
 import Hack from './Hacktoberfest/Hackcomp';
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
           <Route path="/Command" element={<Initials />} />
           <Route path="/Forkclone" element={<ForkClone />} />
           <Route path="/Branch" element={<Branch />} />
-          <Route path="/Pr" element={<Pull/>} />
+          <Route path="/Pull" element={<Pull/>} />
           <Route path="/Hacktoberfest" element={<Hack/>} />
         </Routes>
       </div>
