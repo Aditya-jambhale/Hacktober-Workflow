@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import Env from '../components/env'
+import Env from './../components/env'
 function env() {
   return (
    <>
