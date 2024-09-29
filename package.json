@@ -4,13 +4,12 @@
   "version": "0.0.0",
   "type": "module",
  
-    "scripts": {
+   "scripts": {
     "dev": "vite",
-    "build": "npm run build",
-    "lint": "eslint .",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
-          
-  },
+},
   "dependencies": {
     "daisyui": "^4.12.10",
     "gsap": "^3.12.5",
