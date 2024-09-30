@@ -21,8 +21,9 @@ function Banner() {
 
   return (
     <div className='max-w-screen-2xl h-screen bg-slate-900 flex flex-col items-center justify-center'>
-      <p ref={paragraphRef} className='text-white text-center font-serif mt-6 font-bold text-2xl'>
-       Welcome to the Git and Github Workshop
+     
+      <p className='text-white text-center font-serif mt-6 font-bold text-2xl  '>
+       Welcome to the <span className='text-green-700 font-bold '>Hacktober fest 2024</span>
       </p>
       <img src={image} alt="Centered" className="w-auto max-w-xs animate-spin-horizontal" /> {/* Improved image class */}
       

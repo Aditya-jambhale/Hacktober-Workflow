@@ -8,6 +8,7 @@ import ForkClone from './Fork/Fccomponent';
 import Branch from './Branch/Branchcomp';
 import Pull from './Pullrequests/Prcomponent';
 import Hack from './Hacktoberfest/Hackcomp';
+import ProfileBuilder from './Profile/Build'
 function App() {
   return (
    
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/InfoBoxcom" element={<Intro />} />
           <Route path="/Env" element={<Environment />} />
+          <Route path="/ProfileBuild" element={<ProfileBuilder />} />
           <Route path="/Command" element={<Initials />} />
           <Route path="/Forkclone" element={<ForkClone />} />
           <Route path="/Branch" element={<Branch />} />
