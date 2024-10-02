@@ -27,7 +27,7 @@ function Navbar() {
               <li><a href='/Branch' class="menu-item">Branching</a></li>
               <li><a href='/Forkclone' class="menu-item">Forking and Cloning</a></li>
               <li><a href='/Pull' class="menu-item">Push and Pull Requests</a></li>
-              <li><a href='/Hacktoberfest' class="menu-item">Hacktoberfest</a></li>
+              <li><a href='/Hackbanner' class="menu-item">Hacktoberfest</a></li>
             </ul>
           </div>
 
@@ -46,7 +46,7 @@ function Navbar() {
                 <li><a href='/Branch' class=" menu-item">Branching</a></li>
                 <li><a href='/Forkclone' class=" menu-item">Forking and Cloning</a></li>
                 <li><a href='/Pull' class=" menu-item">Push and Pull Requests</a></li>
-                <li><a href='/Hacktoberfest' class="menu-item">Hacktoberfest</a></li>
+                <li><a href='/Hackbanner' class="menu-item">Hacktoberfest</a></li>
               </ul>
             </div>
           </div>

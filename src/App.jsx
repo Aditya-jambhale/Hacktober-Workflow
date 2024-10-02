@@ -22,7 +22,7 @@ function App() {
           <Route path="/Forkclone" element={<ForkClone />} />
           <Route path="/Branch" element={<Branch />} />
           <Route path="/Pull" element={<Pull/>} />
-          <Route path="/Hacktoberfest" element={<Hack/>} />
+          <Route path="/Hackbanner" element={<Hack/>} />
         </Routes>
       </div>
     
