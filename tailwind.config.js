@@ -15,7 +15,7 @@ export default {
           '0%': { opacity: '1' },
           '100%': { opacity: '0' },
         },
-       
+
       },
       animation: {
         'spin-horizontal': 'rotate-horizontal 6s linear infinite',
@@ -24,7 +24,7 @@ export default {
       },
     },
   },
-  plugins: [  require('daisyui'),
+  plugins: [require('daisyui'),
 
   ],
 }
