@@ -1,58 +1,111 @@
-import React, { useEffect } from 'react';
-import { gsap } from 'gsap';
-import CSI from '../assets/CSI_logo.png';
+import React from "react";
+import CSI from "../assets/CSI_logo.png";
 
 function Navbar() {
-
-
   return (
-    <>
-      <div class="max-w-screen-2xl px:0 md:px-20 py-5 mx-auto bg-slate-800 font-semibold text-black md:text-white cursor-pointer" id="nav">
-        <div class="navbar">
-          <div class="flex-1">
-            <a href='/'>
-              <div class="bg-white p-1 rounded-lg logo">
-                <img src={CSI} class="w-32 h-auto" alt="CSI Logo" />
-              </div>
+    <nav className="w-full px-4 md:px-10 py-5 bg-slate-800 font-semibold text-white">
+      <div className="flex items-center justify-between">
+        {/* Logo */}
+        <a href="/" className="bg-white p-1 rounded-lg">
+          <img src={CSI} className="w-32 h-auto" alt="CSI Logo" />
+        </a>
+
+        {/* Desktop Menu */}
+        <ul className="hidden lg:flex space-x-8">
+          <li>
+            <a href="/InfoBoxcom" className="hover:text-green-400">
+              Introduction
             </a>
-          </div>
+          </li>
+          <li>
+            <a href="/Env" className="hover:text-green-400">
+              Environment Setup
+            </a>
+          </li>
+          <li>
+            <a href="/Command" className="hover:text-green-400">
+              Initial Commands
+            </a>
+          </li>
+          <li>
+            <a href="/ProfileBuild" className="hover:text-green-400">
+              Profile Building
+            </a>
+          </li>
+          <li>
+            <a href="/Branch" className="hover:text-green-400">
+              Branching
+            </a>
+          </li>
+          <li>
+            <a href="/Forkclone" className="hover:text-green-400">
+              Forking & Cloning
+            </a>
+          </li>
+          <li>
+            <a href="/Pull" className="hover:text-green-400">
+              Push & Pull Requests
+            </a>
+          </li>
+          <li>
+            <a href="/Hackbanner" className="hover:text-green-400">
+              Hacktoberfest
+            </a>
+          </li>
+        </ul>
 
-          <div class="hidden lg:flex">
-            <ul class="menu menu-horizontal px-1">
-              {/* Added .menu-item class to each menu item */}
-              <li><a href='/InfoBoxcom' class="menu-item">Introduction</a></li>
-              <li><a href='/Env' class="menu-item">Environment Setup</a></li>
-              <li><a href='/Command' class="menu-item">Initial Commands</a></li>
-              <li><a href='/ProfileBuild' class=" menu-item">Profile Building</a></li>
-              <li><a href='/Branch' class="menu-item">Branching</a></li>
-              <li><a href='/Forkclone' class="menu-item">Forking and Cloning</a></li>
-              <li><a href='/Pull' class="menu-item">Push and Pull Requests</a></li>
-              <li><a href='/Hackbanner' class="menu-item">Hacktoberfest</a></li>
+        {/* Mobile Menu */}
+        <div className="lg:hidden">
+          <div className="dropdown dropdown-end">
+            <label tabIndex={0} className="btn btn-ghost text-white">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M4 6h16M4 12h16m-7 6h7"
+                />
+              </svg>
+            </label>
+            <ul
+              tabIndex={0}
+              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow text-white rounded-box w-52 bg-black"
+            >
+              <li>
+                <a href="/InfoBoxcom">Introduction</a>
+              </li>
+              <li>
+                <a href="/Env">Environment Setup</a>
+              </li>
+              <li>
+                <a href="/Command">Initial Commands</a>
+              </li>
+              <li>
+                <a href="/ProfileBuild">Profile Building</a>
+              </li>
+              <li>
+                <a href="/Branch">Branching</a>
+              </li>
+              <li>
+                <a href="/Forkclone">Forking & Cloning</a>
+              </li>
+              <li>
+                <a href="/Pull">Push & Pull Requests</a>
+              </li>
+              <li>
+                <a href="/Hackbanner">Hacktoberfest</a>
+              </li>
             </ul>
-          </div>
-
-          <div class="lg:hidden">
-            <div class="dropdown dropdown-end text-white">
-              <label tabIndex="0" class="btn btn-ghost lg:hidden">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7" />
-                </svg>
-              </label>
-              <ul tabIndex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow text-white rounded-box w-52 bg-black">
-                <li><a href='/InfoBoxcom' class=" menu-item">Introduction</a></li>
-                <li><a href='/Env' class=" menu-item">Environment Setup</a></li>
-                <li><a href='/Command' class=" menu-item">Initial Commands</a></li>
-                <li><a href='/ProfileBuild' class=" menu-item">Profile Building</a></li>
-                <li><a href='/Branch' class=" menu-item">Branching</a></li>
-                <li><a href='/Forkclone' class=" menu-item">Forking and Cloning</a></li>
-                <li><a href='/Pull' class=" menu-item">Push and Pull Requests</a></li>
-                <li><a href='/Hackbanner' class="menu-item">Hacktoberfest</a></li>
-              </ul>
-            </div>
           </div>
         </div>
       </div>
-    </>
+    </nav>
   );
 }
 
